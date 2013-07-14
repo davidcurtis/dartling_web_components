@@ -3,5 +3,5 @@ import 'package:web_ui/component_build.dart';
 
 // Ref: http://www.dartlang.org/articles/dart-web-components/tools.html
 main() {
-  build(new Options().arguments, ['web/datagrid.html']);
+  build(new Options().arguments, ['web/dartling_datagrid.html']);
 }
