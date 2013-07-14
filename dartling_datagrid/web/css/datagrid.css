@@ -1,0 +1,41 @@
+body
+{
+  font-family: Helvetica, Arial, sans-serif;
+  
+}
+
+code ul{
+  width:760px;
+  margin-bottom:20px;
+  overflow:hidden;
+  border-top:3px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 3px solid #ccc;
+}
+
+li{
+  line-height:1.5em;
+  border-bottom:1px solid #ccc;
+  float:left;
+  display:inline;
+}
+
+#double li  { width:33.33%;}
+
+#double_legend li  
+{ 
+  width:33.333%;
+  border-bottom:0px ;
+  font-family : bold;
+}
+
+#double_legend li :hover { 
+background: #DEDEDE;
+  }
+
+#code_legend ul{
+  margin-bottom:0px;
+  border-left:1px solid #ccc;
+  background: gray;
+}

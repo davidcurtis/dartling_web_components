@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>dartling-datagrid</title>
+    <link rel="import" href="component/member_datagrid.html">
+    <link rel="stylesheet" href="css/datagrid.css"/>
+  </head>
+ 
+  <body>   
+          <center><img src="img/dartling.png"/> </center>
+         <center> <h2> Dartling Datagrid</h2></center>
+     <center> <member-datagrid members ="{{ members }}"></member-datagrid></center>
+     
+     
+     <script type="application/dart" src="datagrid.dart"></script>
+    <!-- for this next line to work, your pubspec.yaml file must have a dependency on 'browser' -->
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>
